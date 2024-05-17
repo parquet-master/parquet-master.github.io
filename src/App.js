@@ -16,7 +16,12 @@ function App() {
   return (
     <div className="app">
       <Flex className="app-header" gap="middle" justify="end">
-        <Button type="primary" shape="round" size="large">
+        <Button
+          type="primary"
+          shape="round"
+          size="large"
+          href="tel:+79263722119"
+        >
           Позвонить
         </Button>
       </Flex>
